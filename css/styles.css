@@ -34,12 +34,12 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    transition: all .4 ease ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .slide:not(:last-child) {
     margin-right: 10px;
 }
-.slide.active{
+.slide.active {
     flex: 10;
 }
 .slide__text {
@@ -47,11 +47,10 @@ main {
     bottom: 0;
     top: auto;
     font-size: 24px;
-    padding: 10px;
+    padding: 30px;
     opacity: 0;
-    transition: .25s linear;
+    transition: 0.25s ease .4s;
 }
-.slide.active .slide__text  {
+.slide.active .slide__text {
     opacity: 1;
 }
-
