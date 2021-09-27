@@ -1,4 +1,4 @@
 # cards-gallery
 
 GH-PAGES:
-- [Cards-Carousel](https://fpsska.github.io/cards-gallery/)
+- [Cards-Swiper](https://fpsska.github.io/cards-swiper/)
